@@ -13,8 +13,7 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private Integer storeId;
-    private Integer userId;
+    private String name;
     private Integer qty;
     private Integer totalPrice;
 }
